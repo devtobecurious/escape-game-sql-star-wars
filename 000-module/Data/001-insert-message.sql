@@ -68,3 +68,8 @@ INSERT INTO message
 (id, message, "date", heure, de_bibliothecaire, vers_bibliothecaire)
 VALUES(510, 'Nous allons pouvoir interroger l''archive pihship', '3980-05-01', '15:03:10', 1, 5);
 
+
+INSERT INTO message
+(id, message, "date", heure, de_bibliothecaire, vers_bibliothecaire)
+VALUES(550, 'esdilopq dfertyiopdxc ....sdsdsez azebépoix iébba i', '3900-12-11', '18:03:10', 4, NULL);
+
