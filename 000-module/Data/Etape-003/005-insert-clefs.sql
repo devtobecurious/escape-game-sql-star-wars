@@ -1,5 +1,3 @@
-delete from clefs;
-
 INSERT INTO clefs
 ("key", value)
 VALUES('1', 'P');
@@ -35,3 +33,19 @@ VALUES('1113213211', 'R');
 INSERT INTO clefs
 ("key", value)
 VALUES('31131211131221', 'E');
+
+INSERT INTO clefs
+("key", value)
+VALUES('13211311123113111211', 'XZUMP9');
+
+INSERT INTO clefs
+("key", value)
+VALUES('13211311123113112211', 'XZUMP8');
+
+INSERT INTO clefs
+("key", value)
+VALUES('13211311113113112211', 'XZUMP10');
+
+INSERT INTO clefs
+("key", value)
+VALUES('13221311123113112211', 'AXZUMP1');
