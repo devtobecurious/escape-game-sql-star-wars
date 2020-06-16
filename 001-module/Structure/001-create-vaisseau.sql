@@ -1,8 +1,8 @@
 -- Drop table
 
--- DROP TABLE xzump8.vaisseau;
+-- DROP TABLE vaisseau;
 
-CREATE TABLE xzump8.vaisseau (
+CREATE TABLE vaisseau (
 	id int4 NOT NULL GENERATED ALWAYS AS IDENTITY,
 	nom varchar(255) NOT NULL,
 	modele_id int4 NULL,
@@ -11,4 +11,4 @@ CREATE TABLE xzump8.vaisseau (
 );
 
 
-COMMENT ON TABLE xzump8.vaisseau IS 'Vaisseau dans Star wars';
+COMMENT ON TABLE vaisseau IS 'Vaisseau dans Star wars';

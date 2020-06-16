@@ -1,14 +1,14 @@
--- xzump8.modele definition
+-- modele definition
 
 -- Drop table
 
--- DROP TABLE xzump8.modele;
+-- DROP TABLE modele;
 
-CREATE TABLE xzump8.modele (
+CREATE TABLE modele (
 	id int4 NOT NULL,
 	CONSTRAINT modele_pk PRIMARY KEY (id)
 );
 
-ALTER TABLE xzump8.modele ADD libelle varchar(255) NOT NULL;
+ALTER TABLE modele ADD libelle varchar(255) NOT NULL;
 
-COMMENT ON TABLE xzump8.modele IS 'Modele des vaisseaux de Star Wars;
+COMMENT ON TABLE modele IS 'Modele des vaisseaux de Star Wars;
