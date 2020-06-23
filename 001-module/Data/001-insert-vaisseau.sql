@@ -10,11 +10,11 @@ VALUES(2, 'YT492727ZAF', 12);
 
 INSERT INTO vaisseau
 (id, nom, modele_id)
-VALUES(3, 'YT492727ZED', 12);
+VALUES(3, 'YT492727ZED', 12); -- Faucon millenium
 
 INSERT INTO vaisseau
 (id, nom, modele_id)
-VALUES(4, 'YT482727ZED', 12);
+VALUES(4, 'YT482727ZED', 12); -- Faux Faucon Millénium
 
 INSERT INTO vaisseau
 (id, nom, modele_id)

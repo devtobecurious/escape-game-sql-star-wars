@@ -705,3 +705,6 @@ INSERT INTO utilisateur (id, prenom, nom) VALUES(1684, 'Cordo',NULL);
 INSERT INTO utilisateur (id, prenom, nom) VALUES(1685, 'Corgan',NULL);
 INSERT INTO utilisateur (id, prenom, nom) VALUES(1686, 'Corgan','Sturm');
 INSERT INTO utilisateur (id, prenom, nom) VALUES(1687, 'Coria',NULL);
+
+INSERT INTO utilisateur (id, prenom, nom) VALUES(1688, 'Lando', 'Calrissian');
+INSERT INTO utilisateur (id, prenom, nom) VALUES(1689, 'Luke', 'Skywalker');

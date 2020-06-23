@@ -32,12 +32,12 @@ VALUES(10100, 'Errrur eurror boip biop violation de protocol', '5001-12-13', '2:
 
 INSERT INTO message
 (id, message, "date", heure, de_bibliothecaire, vers_bibliothecaire)
-VALUES(10101, 'bèèpkèdlk bèèpkèdlk fff ev^pé jbv.op elv ff', '5002-08-2', '8:50:00', 2, NULL);
+VALUES(1101, 'bèèpkèdlk bèèpkèdlk fff ev^pé jbv.op elv ff', '5002-08-2', '8:50:00', 2, NULL);
 
 INSERT INTO message
 (id, message, "date", heure, de_bibliothecaire, vers_bibliothecaire)
-VALUES(11053, '... voir dans l''archive des clefs', '3782-01-02', '8:04:01', 1, 3);
+VALUES(1053, '... voir dans l''archive des clefs', '3782-01-02', '8:04:01', 1, 3);
 
 INSERT INTO message
 (id, message, "date", heure, de_bibliothecaire, vers_bibliothecaire)
-VALUES(12054, ' oè^vd è^lic vdjjr abépoè^u àuie ', '3782-01-02', '8:04:01', 1, 3);
+VALUES(1254, ' oè^vd è^lic vdjjr abépoè^u àuie ', '3782-01-02', '8:04:01', 1, 3);

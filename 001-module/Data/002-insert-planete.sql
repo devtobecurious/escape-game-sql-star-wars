@@ -641,3 +641,5 @@ INSERT INTO planete (id, libelle) VALUES(4495, 'NaJedha');
 INSERT INTO planete (id, libelle) VALUES(4496, 'Najra-Va');
 INSERT INTO planete (id, libelle) VALUES(4497, 'Nal Hutta');
 
+INSERT INTO planete (id, libelle) VALUES(111, 'Kashyyk');
+
