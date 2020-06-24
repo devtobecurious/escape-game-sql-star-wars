@@ -189,3 +189,11 @@ join
 delete from reponse_enigme
 where 
 	enigme_id in (42, 46, 49, 50, 51);
+
+
+INSERT INTO reponse_enigme
+(enigme_id, planete_id, reponse)
+values
+(
+    51, 3997, 'Chaque ville a une unique clef, trouvez la bonne combinaison ....'
+)

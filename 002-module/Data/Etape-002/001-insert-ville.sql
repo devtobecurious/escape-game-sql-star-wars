@@ -46,8 +46,7 @@ VALUES(11, 'Coronet city', 4487);
 
 INSERT INTO ville
 (id, libelle, planete_id)
-VALUES(15, 'Black spire', 3997);
-
+VALUES(15, 'Black spire', 3997); 
 
 INSERT INTO ville
 (id, libelle, planete_id)
