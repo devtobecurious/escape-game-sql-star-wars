@@ -49,3 +49,12 @@ INSERT INTO ville
 VALUES(15, 'Black spire', 3997);
 
 
+INSERT INTO ville
+(id, libelle, planete_id)
+VALUES(16, 'Galma', 3997);
+
+INSERT INTO ville
+(id, libelle, planete_id)
+VALUES(17, 'Peka', 3997);
+
+

@@ -27,11 +27,15 @@ VALUES(44, '1 + 2 n''est pas égal à 3, à combien ?', '1709/08/12', '1709/09/0
 
 INSERT INTO enigme
 (id, libelle, date_actif, date_fin_actif)
-VALUES(46, 'Quel est le modèle de vaisseau qui est allé sur le plus de planètes ? Le nombre de planète est la seconde clef', '1710/08/13', NULL);
+VALUES(46, 'La seconde clef est l''âge du capitaine qui a le plus de vaisseaux', '1710/08/13', NULL);
 
 INSERT INTO enigme
 (id, libelle, date_actif, date_fin_actif)
-VALUES(49, '', '1710/09/14', NULL);
+VALUES(49, 'Quel est le modèle de vaisseau qui est allé sur le plus de planètes ? Le nombre de planète est la seconde clef', '1710/09/14', NULL);
+
+INSERT INTO enigme
+(id, libelle, date_actif, date_fin_actif)
+VALUES(51, 'De ces trois clefs, vous trouverez la ville où est votre vaisseau', '1711/01/01', NULL);
 
 -- Enigme bonne mais appartenant à un gardien mort, donc invalide
 INSERT INTO enigme
