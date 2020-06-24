@@ -709,6 +709,37 @@ INSERT INTO utilisateur (id, prenom, nom) VALUES(1687, 'Coria',NULL);
 INSERT INTO utilisateur (id, prenom, nom) VALUES(1688, 'Lando', 'Calrissian');
 INSERT INTO utilisateur (id, prenom, nom) VALUES(1689, 'Luke', 'Skywalker');
 
+
+-- dates de naissance
+UPDATE utilisateur
+SET
+    date_naissance = '0001/01/02'
+WHERE 
+    id in (1138, 1139, 1140, 1141, 1142, 1143, 1144, );
+
+UPDATE utilisateur
+SET
+    date_naissance = '0111/11/08'
+WHERE 
+    id in (1141, 1142, 1143, 1144);
+
+UPDATE utilisateur
+SET
+    date_naissance = '0123/07/15'
+WHERE 
+    id in (1145, 1146, 1147);
+
+-- 2 sont morts
+UPDATE utilisateur
+SET
+    date_mort = '2900/10/02'
+WHERE 
+    id in (1139, 1144);
+
+
+-- Gardiens de la planète 3997 : 1139, 1144, 1146
+
+
 UPDATE utilisateur
 SET
     date_naissance = '2950/01/30',

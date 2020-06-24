@@ -22,4 +22,4 @@ drop SEQUENCE logs_sequence;
 
 
 delete from proprietaire_acquerir_vaisseau
-where nom_vaisseau = 'Faucon Millénium';
+where nom_vaisseau = 'Faucon Millénium' or nom_vaisseau = '492727ÉPI';

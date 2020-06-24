@@ -195,3 +195,18 @@ VALUES
     '492727ÉPI'
 );
 
+-- Pour qu'un propriétaire ait 15 vaisseaux, au lieu de 14 pour les autres
+INSERT INTO vaisseau
+(id, nom, modele_id)
+VALUES(25, 'TX100Z89', 26);
+
+INSERT INTO proprietaire_acquerir_vaisseau
+(proprietaire_id, utilisateur_id, vaisseau_id, date_acquisition, nom_vaisseau)
+VALUES
+(
+    20, 1688,
+    25,
+    '3015/11/07',
+    'TX100Z89'
+);
+
