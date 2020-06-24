@@ -32,3 +32,35 @@ INSERT INTO histoire
 (id, contenu, "index", etape_id)
 VALUES(8, 'Quel vaisseau choisir ? Comment bien choisir ! A vous de jouer ! ...', 2, 2);
 
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(9, 'Vous avez trouvé l''archive spéciale ? Oui ?! C''est super ! On avance. ', 0, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(10, 'Maintenant, on va pouvoir trouver le vaisseau ! Je suis sûr qu''il existe ! Je peux le sentir ! Pas vous ?', 1, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(11, 'Un vaisseau a un propriétaire, un pilote, non ? Ca doit bien se trouver dans les archives, non ?', 2, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(12, 'Vous avez son propriétaire ? Le vaisseau ? Vraiment ? hmmm j''en doute fort ... Vous avez vérifié les logs ?!', 3, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(13, 'Oh vous savez où il est caché ??! Yataahh !! Est-ce sur une planète, une ville ? une galaxie ??! Plus qu''à se rendre dans l''archive dédiée. Mais ... où est-ce déjà ?', 4, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(14, 'Ohh non d''un rancor !! Des gardiens .... ils protègent quoi eux ??', 5, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(15, 'Et bien voilà, on va enfin pouvoir récupérer le vaisseau ! Merci !!!', 6, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(16, 'Mais .... oh nonn ......', 7, 3);
+
