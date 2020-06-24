@@ -27,13 +27,16 @@ VALUES(44, '1 + 2 n''est pas égal à 3, à combien ?', '1709/08/12', '1709/09/0
 
 INSERT INTO enigme
 (id, libelle, date_actif, date_fin_actif)
-VALUES(46, 'Quel est le propriétaire qui a le plus de vaisseau ? Son âge est la seconde clef', '1710/08/13', NULL);
--- TODO: Ajouter un vaisseau à un propriétaire et une date de naissance
+VALUES(46, 'Quel est le modèle de vaisseau qui est allé sur le plus de planètes ? Le nombre de planète est la seconde clef', '1710/08/13', NULL);
+
+INSERT INTO enigme
+(id, libelle, date_actif, date_fin_actif)
+VALUES(49, '', '1710/09/14', NULL);
 
 -- Enigme bonne mais appartenant à un gardien mort, donc invalide
 INSERT INTO enigme
 (id, libelle, date_actif, date_fin_actif)
-VALUES(50, 'Une brique pèse 1 kg plus une demi-brique. Combien pèse une brique ?', '1810/12/12', NULL);
+VALUES(50, 'Combien de planètes le vaisseau le plus rapide a visité ? Le nombre est la troisième clef', '1711/12/12', NULL);
 
 -- Autre 
 INSERT INTO enigme

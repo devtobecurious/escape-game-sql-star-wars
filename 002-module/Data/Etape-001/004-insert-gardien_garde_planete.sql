@@ -2,7 +2,7 @@ delete from gardien_garde_planete;
 
 INSERT INTO gardien_garde_planete
 (gardien_id, utilisateur_id, planete_id)
-VALUES(2, 1139, 3997);
+VALUES(2, 1139, 3997); -- mort
 
 -- 5, 1142
 INSERT INTO gardien_garde_planete
@@ -13,7 +13,6 @@ VALUES(5, 1142, 3997);
 INSERT INTO gardien_garde_planete
 (gardien_id, utilisateur_id, planete_id)
 VALUES(9, 1146, 3997);
-
 
 
 -- Autres planètes
