@@ -62,9 +62,13 @@ VALUES(15, 'Et bien voilà, on va enfin pouvoir récupérer le vaisseau ! Merci 
 
 INSERT INTO histoire
 (id, contenu, "index", etape_id)
-VALUES(16, 'Mais .... oh nonn ......', 7, 3);
+VALUES(16, 'Mais .... oh nonn ......fais chier ....', 7, 3);
 
 INSERT INTO histoire
 (id, contenu, "index", etape_id)
 VALUES(17, 'Le vaisseau est endommagé ... Impossible de le démarrer ... L''ordinateur de bord va nous en dire plus, je pense ...', 1, 4);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(18, 'Punaise, toutes ces pièces sont à réparer ! Toutes, vraiment ? Tu te souviens où le manuel de bord ?', 2, 4);
 
