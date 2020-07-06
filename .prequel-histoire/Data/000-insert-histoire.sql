@@ -64,3 +64,7 @@ INSERT INTO histoire
 (id, contenu, "index", etape_id)
 VALUES(16, 'Mais .... oh nonn ......', 7, 3);
 
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(17, 'Le vaisseau est endommagé ... Impossible de le démarrer ... L''ordinateur de bord va nous en dire plus, je pense ...', 1, 4);
+
