@@ -72,3 +72,20 @@ INSERT INTO histoire
 (id, contenu, "index", etape_id)
 VALUES(18, 'Punaise, toutes ces pièces sont à réparer ! Toutes, vraiment ? Tu te souviens où le manuel de bord ?', 2, 4);
 
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(19, 'Vous voilà arrivé-e, sur la planète Tatooine. L''une des planètes le splus à même de vous fournir en pièces détachées !', 1, 5);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(20, 'Vous tombez sur un marchand prêt à vous vendre les pièces que vous avez besoin !', 2, 5);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(21, 'Il souhaite échanger avec vous ....', 3, 5);
+
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(22, 'Bravo, vous voici avec les pièces du vaisseau ! Vous allez pouvoir partir en mission !', 1, 6);
+
