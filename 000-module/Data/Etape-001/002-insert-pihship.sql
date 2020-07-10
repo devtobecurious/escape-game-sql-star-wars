@@ -36,12 +36,12 @@ VALUES(8, 'BOPDLJR 500', '3500-02-02', 801, false);
 
 INSERT INTO pihship
 (id, modele, date_course, vitesse, a_gagne)
-VALUES(9, 'PMPDLJR 40', '3500-02-02', 1500, false);
+VALUES(9, 'PMPDLJR 40', '3500-02-02', 3400, false);
 
 -- Troisème course
 INSERT INTO pihship
 (id, modele, date_course, vitesse, a_gagne)
-VALUES(10, 'YT 1300f', '3501-05-15', 1190, false);
+VALUES(10, 'YT 1300f', '3501-05-15', 3500, false);
 
 INSERT INTO pihship
 (id, modele, date_course, vitesse, a_gagne)
