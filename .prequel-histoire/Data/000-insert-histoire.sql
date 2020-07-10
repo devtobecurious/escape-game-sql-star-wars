@@ -42,11 +42,19 @@ VALUES(9, 'Vous avez trouvé l''archive spéciale ? Oui ?! C''est super ! On ava
 
 INSERT INTO histoire
 (id, contenu, "index", etape_id)
-VALUES(10, 'Maintenant, on va pouvoir trouver le vaisseau ! Je suis sûr qu''il existe ! Je peux le sentir ! Pas vous ?', 1, 3);
+VALUES(10, 'Maintenant, on va pouvoir trouver vraiment le vaisseau ! Je suis sûr qu''il existe ! Je peux le sentir ! Pas vous ?', 1, 3);
 
 INSERT INTO histoire
 (id, contenu, "index", etape_id)
-VALUES(11, 'Un vaisseau a un propriétaire, un pilote, non ? Ca doit bien se trouver dans les archives, non ?', 2, 3);
+VALUES(11, 'Un vaisseau a un propriétaire, un pilote, non ? Ca doit bien se trouver dans les données, non ?', 2, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(31, 'Oui, mais dans quelle table ....Je sens la force qui nous invite à le re.joindre ....', 3, 3);
+
+INSERT INTO histoire
+(id, contenu, "index", etape_id)
+VALUES(32, 'Il s''appelait comment déjà le vaisseau ? oh ... non ...il a ...', 4, 3);
 
 INSERT INTO histoire
 (id, contenu, "index", etape_id)
