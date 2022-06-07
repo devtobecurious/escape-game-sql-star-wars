@@ -1,7 +1,7 @@
 CREATE TABLE histoire (
 	id int4 NOT NULL,
 	contenu varchar(255) NOT NULL,
-	"index" int4 NOT NULL,
+	`index` int4 NOT NULL,
 	etape_id int NULL,
 	CONSTRAINT histoire_pk PRIMARY KEY (id)
 );

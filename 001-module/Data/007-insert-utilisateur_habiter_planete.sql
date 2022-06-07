@@ -20,6 +20,7 @@ select
 from utilisateurs 
 join planetes on utilisateurs.num = planetes.num;
 
+STR_TO_DATE(CONCAT('300004', day), '%d%m%Y')
 
 -- Chewbacca 
 INSERT INTO utilisateur_habiter_planete
